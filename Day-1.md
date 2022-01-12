@@ -1,11 +1,11 @@
-Q1. Features of kernel?
+# Q1. Features of kernel?
 Solu-
 Memory management: Keep track of how much memory is used to store what, and where
 Process management: Determine which processes can use the central processing unit (CPU), when, and for how long
 Device drivers: Act as mediator/interpreter between the hardware and processes
 System calls and security: Receive requests for service from the processes
 
-Q2. Difference b/w LInux, Unix and Windows?
+# Q2. Difference b/w LInux, Unix and Windows?
 Solu-
 Linux is open source. Linux is free to use.Linux is used in wide varieties from desktop, servers, smartphones to mainframes. Example- Ubuntu, Debian GNU, Arch Linux, etc.
 Unix
@@ -13,25 +13,25 @@ Unix was developed by AT&T Bell labs and is not open source.Unix is licensed OS.
 Windows 
 Windows is Close source. It is costly. Provides less security than linux.
 
-Q3. What do you mean by opensource?
+# Q3. What do you mean by opensource?
 Solu-  
 Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
 
-Q4. Explain the output of "ls -l" command.
+# Q4. Explain the output of "ls -l" command.
 Solu-
 The output from ls -l summarizes all the most important information about the file on one line. It precedes this list with a status line that indicates the total number of file system blocks occupied by the files in that directory.
  
-Q5. How to create multiple files with single command.
+# Q5. How to create multiple files with single command.
 Solu-
 Touch command can be used to create the multiple numbers of files at the same time. These files would be empty while creation.
      Syntax:
       touch File1_name File2_name File3_name 
 
-Q6. Where are unit files located?
+# Q6. Where are unit files located?
 Solu-
 Unit files are stored in the /usr/lib/systemd directory and its subdirectories, while the /etc/systemd/ directory and its subdirectories contain symbolic links to the unit files necessary to the local configuration of this host.
 
-Q7. Create a service file for nginx.
+# Q7. Create a service file for nginx.
 Solu-
 Save this file as /lib/systemd/system/nginx.service
 
@@ -50,321 +50,4 @@ ExecStop=/bin/kill -s QUIT $MAINPID
 PrivateTmp=true
 
 [Install]
-
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-wantedBy=multi-user.target
+WantedBy=multi-user.target
