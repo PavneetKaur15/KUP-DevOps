@@ -8,3 +8,4 @@ Solu- A NAT gateway is a Network Address Translation (NAT) service. You can use 
 
 # Q3. What is Subnet and is it zone specific?
 Solu- A subnet is a range of IP addresses in your VPC. You can launch AWS resources, such as EC2 instances, into a specific subnet. When you create a subnet, you specify the IPv4 CIDR block for the subnet, which is a subset of the VPC CIDR block. Each subnet must reside entirely within one Availability Zone and cannot span zones. 
+
