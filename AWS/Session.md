@@ -19,7 +19,7 @@ Solu- The difference between on-premise and cloud is essentially where your hard
 # Q2. Types of cloud computing?
 Solu- The following are the types of cloud computings:
       - Public Clouds
-  	    These type of cloud environments are not owned by the end user and the 	computing resources are managed and operated by the Cloud Service Provider. It 	is         open to all to store and access information via the internet using the pay-	per-usage method. E.g., 
+  	    These type of cloud environments are not owned by the end user and the computing resources are managed and operated by the Cloud Service Provider. It is open to all to store and access information via the internet using the pay-per-usage method. 
       - Private Clouds
 	      This cloud environment is dedicated to a single end user or group. It is used by 	organizations to build and manage their own data centers internally or           third party.
       - Hybrid Clouds
